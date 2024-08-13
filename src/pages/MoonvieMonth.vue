@@ -1,18 +1,17 @@
 <template>
     <div>
-      <div class="container text-center text-white mt-5">
-        <h1>Month</h1>
-        <p>Month</p>
-      </div>
+      <MovieList />
       <MoonvieFooter />
     </div>
   </template>
   
   <script>
+  import MovieList from '../components/MovieList';
   
   export default {
     name: 'MoonvieMonth',
     components: {
+      MovieList
     }
   };
   </script>

@@ -16,6 +16,9 @@
             <router-link to="/month" class="nav-link">월/분기별</router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/period" class="nav-link">기간별</router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/genre" class="nav-link">장르별</router-link>
           </li>
         </ul>
