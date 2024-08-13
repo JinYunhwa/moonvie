@@ -18,12 +18,6 @@
           <li class="nav-item">
             <router-link to="/genre" class="nav-link">장르별</router-link>
           </li>
-          <li class="nav-item">
-            <router-link to="/OTT" class="nav-link">OTT흥행</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/comparision" class="nav-link">극장과 OTT 비교</router-link>
-          </li>
         </ul>
       </div>
     </div>
