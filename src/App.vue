@@ -30,6 +30,12 @@ body {
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+router-view {
   flex: 1;
 }
 </style>
