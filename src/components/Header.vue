@@ -7,7 +7,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link to="/" class="nav-link">홈</router-link>
@@ -31,7 +31,4 @@ export default {
 </script>
 
 <style scoped>
-#navbarNav {
-  margin: 0 auto;
-}
 </style>
