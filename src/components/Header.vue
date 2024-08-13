@@ -7,7 +7,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link to="/" class="nav-link">홈</router-link>
@@ -19,10 +19,10 @@
             <router-link to="/genre" class="nav-link">장르별</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/OTT" class="nav-link" href="#">OTT흥행</router-link>
+            <router-link to="/OTT" class="nav-link">OTT흥행</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/comparision"  class="nav-link" href="#">극장과 OTT 비교</router-link>
+            <router-link to="/comparision" class="nav-link">극장과 OTT 비교</router-link>
           </li>
         </ul>
       </div>
@@ -35,3 +35,9 @@ export default {
   name: 'MoonvieHeader'
 };
 </script>
+
+<style scoped>
+#navbarNav {
+  margin: 0 auto;
+}
+</style>
