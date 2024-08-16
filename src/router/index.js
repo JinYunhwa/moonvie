@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import MoonvieHome from '@/pages/MoonvieHome.vue';
-import MoonvieMonth from '@/pages/MoonvieMonth.vue';
-import MoonviePeriod from '@/pages/MoonviePeriod.vue';
-import MoonvieGenre from '@/pages/MoonvieGenre.vue';
+import MoonvieHome from '@/views/MoonvieHome.vue';
+import MoonvieMonth from '@/views/MoonvieMonth.vue';
+import MoonviePeriod from '@/views/MoonviePeriod.vue';
+import MoonvieGenre from '@/views/MoonvieGenre.vue';
 
 const routes = [
   {
